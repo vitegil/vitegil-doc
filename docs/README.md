@@ -4,7 +4,7 @@ heroImage: /images/vitegil-sys1.jpg
 heroText: null
 tagline: 前端性能监控系统
 actionText: 快速上手 →
-actionLink: /zh/guide/
+actionLink: /guide/
 features:
 - title: 🛠️完整项目架构
   details: jssdk封装核心功能，java-server收集存储数据，vue-admin提供后台数据展示
