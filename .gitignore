@@ -1,2 +1,5 @@
+.DS_Store
+.idea
 .vuepress/dist
+*.log
 node_modules
