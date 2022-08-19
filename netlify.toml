@@ -1,6 +1,5 @@
 [build.environment]
   NODE_VERSION = "16"
-  command: "npm run install"
 [build]
   publish = "docs/.vuepress/dist"
   command: "npm run build"
