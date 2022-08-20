@@ -4,7 +4,7 @@ module.exports = {
   base: '/',
   head: [
     // 设置favicon，在./vuepress/public下
-    ['link', { rel: 'icon', href: '/images/logo.png' }],
+    ['link', { rel: 'icon', href: '/images/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
