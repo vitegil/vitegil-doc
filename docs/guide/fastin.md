@@ -6,8 +6,8 @@
 
 > **前提条件**
 >
-> 本项目采用pnpm进行管理，需要您预先安装pnpm。
-> 您可以通过 `npm i -g pnpm` 安装pnpm。
+> 本项目采用 pnpm 进行管理，需要您预先安装 pnpm。
+> 您可以通过 `npm i -g pnpm` 安装 pnpm。
 
 ## 安装
 
