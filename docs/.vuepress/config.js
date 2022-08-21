@@ -67,6 +67,34 @@ module.exports = {
           ]
         }
       ],
+      '/dev/admin/': [
+        {
+          title: '后台管理系统',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            '', // /dev/server/README.md
+          ]
+        }
+      ],
+      '/dev/server/': [
+        {
+          title: '后端',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            '', // /dev/server/README.md
+          ]
+        },
+        {
+          title: '接口',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            'API',
+          ]
+        }
+      ],
       // fallback
        '/': [
            '',   /* / */
