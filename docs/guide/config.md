@@ -4,7 +4,7 @@
 
 ### 监控页面异常
 
-在初始化 Vitegil Tracker 类时，设置`jsError`属性为`true`。
+在初始化 Vitegil Tracker 类时，设置 `jsError` 属性为 `true`。
 
 ```javascript
 new Tracker({
@@ -32,13 +32,13 @@ interface ErrorData {
 }
 ```
 
-### 监控网站访问人数(uv)
+### 监控网站访问人数 (uv)
 
-该工具会监控每个访问用户并为其生成一个唯一的标识符，即`指纹(fingerprint)`。通过该指纹，可以精准的计算网站的访问人数。
+该工具会监控每个访问用户并为其生成一个唯一的标识符，即 `指纹(fingerprint)`。通过该指纹，可以精准的计算网站的访问人数。
 
-### 监控网站访问总数(pv)
+### 监控网站访问总数 (pv)
 
-在初始化 Vitegil Tracker 类时，设置`historyTracker`属性为`true`。
+在初始化 Vitegil Tracker 类时，设置 `historyTracker` 属性为 `true`。
 
 ```javascript
 new Tracker({
@@ -47,11 +47,11 @@ new Tracker({
 })
 ```
 
-开启该选项后会监控每个访问用户的访问次数，即`访问次数(page view)`。
+开启该选项后会监控每个访问用户的访问次数，即 `访问次数(page view)`。
 
 ### 访问用户设备信息
 
-在初始化 Vitegil Tracker 类时，设置`deviceTracker`属性为`true`。
+在初始化 Vitegil Tracker 类时，设置 `deviceTracker` 属性为 `true`。
 
 ```javascript
 new Tracker({
@@ -91,7 +91,7 @@ interface DeviceData {
 
 ### 获取页面加载时间和页面性能
 
-在初始化 Vitegil Tracker 类时，设置`timeTracker` 属性设置为 `true`，同时设置 `lazyReport`属性为 `true` ，在页面关闭前会自动将页面加载时间返回。
+在初始化 Vitegil Tracker 类时，设置 `timeTracker` 属性设置为 `true`，同时设置 `lazyReport` 属性为 `true`，在页面关闭前会自动将页面加载时间返回。
 
 ```javascript
 new Tracker({
@@ -102,18 +102,18 @@ new Tracker({
 ```
 
 > 注意
-> 计算页面加载时间至少需要` 2500ms`，若用户在计算过程中关闭页面，则不能获得响应数据。
+> 计算页面加载时间至少需要 ` 2500ms`，若用户在计算过程中关闭页面，则不能获得响应数据。
 
 获取页面性能数据，包括：
-- TCP连接耗时
-- ttfb时间:发出页面请求到接收到应答数据第一个字节所花费的毫秒数
+- TCP 连接耗时
+- ttfb 时间：发出页面请求到接收到应答数据第一个字节所花费的毫秒数
 - 响应时间
-- 解析DOM时间
-- DOMContentLoaded事件时间
-- DOMContentLoaded时间
+- 解析 DOM 时间
+- DOMContentLoaded 事件时间
+- DOMContentLoaded 时间
 - 完整的页面加载时间
-- DNS解析时间
-- DOM准备总时间
+- DNS 解析时间
+- DOM 准备总时间
 - 页面首次渲染时间，即白屏时间
 - 首次有内容渲染
 - 最大可交互内容渲染时间
@@ -141,11 +141,11 @@ interface TPData {
 }
 ```
 
-> 我们建议您只在需要（生产环境中）的时候打开该选项来查看页面的性能，帮助你更好的了解页面性能的瓶颈，帮助您优化网页的性能。
+> 我们建议您只在需要 (生产环境中) 的时候打开该选项来查看页面的性能，帮助你更好的了解页面性能的瓶颈，帮助您优化网页的性能。
 
-### 获取页面DOM信息
+### 获取页面 DOM 信息
 
-在初始化 Vitegil Tracker 类时，设置 `domTracker` 属性 设置为 `true`。可监控页面的DOM信息。
+在初始化 Vitegil Tracker 类时，设置 `domTracker` 属性设置为 `true`。可监控页面的 DOM 信息。
 
 ```javascript
 new Tracker({
@@ -154,4 +154,4 @@ new Tracker({
 })
 ```
 
-> 我们建议您只在需要（生产环境中）的时候打开该选项来查看页面的DOM信息。因为该选项会消耗大量的性能。
+> 我们建议您只在需要 (生产环境中) 的时候打开该选项来查看页面的 DOM 信息。因为该选项会消耗大量的性能。
