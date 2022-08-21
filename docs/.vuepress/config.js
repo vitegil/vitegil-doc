@@ -8,7 +8,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
-    repo: 'https://github.com/vitegil/vitegil-doc',
+    repo: 'https://github.com/vitegil/',
     theme: '@vuepress/theme-default',
     logo: '/images/logo.png',
     navbar: true,
