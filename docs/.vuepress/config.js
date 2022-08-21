@@ -32,7 +32,6 @@ module.exports = {
             'fastin',
             'config',
             'expand',
-            'layout',
             'others',
           ]
         },
