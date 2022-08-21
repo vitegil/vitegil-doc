@@ -8,7 +8,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
-    repo: 'https://github.com/SaraiNoQ/vitegil-vuepress.git',
+    repo: 'https://github.com/vitegil/vitegil-doc',
     theme: '@vuepress/theme-default',
     logo: '/images/logo.png',
     navbar: true,
@@ -32,7 +32,6 @@ module.exports = {
             'fastin',
             'config',
             'expand',
-            'layout',
             'others',
           ]
         },
