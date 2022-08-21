@@ -28,8 +28,8 @@ module.exports = {
           collapsable: false,
           sidebarDepth: 2,
           children: [
-            '',
-            'fastin',
+            '', // /guide/README.md
+            'fastin', // /guide/fastin.md
             'config',
             'expand',
             'others',
@@ -41,6 +41,29 @@ module.exports = {
           sidebarDepth: 2,
           children: [
             'inner',
+          ]
+        }
+      ],
+      '/dev/sdk/': [
+        {
+          title: 'SDK',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            '', // /dev/sdk/README.md
+            'desgin', // /dev/sdk/desgin.md
+            'achieve',
+            'others',
+          ]
+        }
+      ],
+      '/changelog/': [
+        {
+          title: '日志',
+          collapsable: false,
+          sidebarDepth: 2,
+          children: [
+            '', // /changelog/README.md
           ]
         }
       ],
