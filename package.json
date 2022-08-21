@@ -1,16 +1,19 @@
 {
-  "name": "doc",
+  "name": "vitegil-doc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://github.com/vitegil/vitegil-doc",
+  "keywords": [],
+  "files": [
+    "docs/.vuepress/dist"
+  ],
+  "engines": {
+    "node": "^14.18.0 || <=16.17.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.9.7"
   }
