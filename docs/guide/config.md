@@ -1,8 +1,6 @@
 # 基本功能
 
-## 功能介绍
-
-### 监控页面异常
+## 监控页面异常
 
 在初始化 Vitegil Tracker 类时，设置 `jsError` 属性为 `true`。
 
@@ -32,11 +30,11 @@ interface ErrorData {
 }
 ```
 
-### 监控网站访问人数 (uv)
+## 监控网站访问人数(uv)
 
 该工具会监控每个访问用户并为其生成一个唯一的标识符，即 `指纹(fingerprint)`。通过该指纹，可以精准的计算网站的访问人数。
 
-### 监控网站访问总数 (pv)
+## 监控网站访问总数(pv)
 
 在初始化 Vitegil Tracker 类时，设置 `historyTracker` 属性为 `true`。
 
@@ -49,7 +47,7 @@ new Tracker({
 
 开启该选项后会监控每个访问用户的访问次数，即 `访问次数(page view)`。
 
-### 访问用户设备信息
+## 访问用户设备信息
 
 在初始化 Vitegil Tracker 类时，设置 `deviceTracker` 属性为 `true`。
 
@@ -89,7 +87,7 @@ interface DeviceData {
 }
 ```
 
-### 获取页面加载时间和页面性能
+## 获取页面加载时间和页面性能
 
 在初始化 Vitegil Tracker 类时，设置 `timeTracker` 属性设置为 `true`，同时设置 `lazyReport` 属性为 `true`，在页面关闭前会自动将页面加载时间返回。
 
@@ -143,7 +141,7 @@ interface TPData {
 
 > 我们建议您只在需要 (生产环境中) 的时候打开该选项来查看页面的性能，帮助你更好的了解页面性能的瓶颈，帮助您优化网页的性能。
 
-### 获取页面 DOM 信息
+## 获取页面DOM信
 
 在初始化 Vitegil Tracker 类时，设置 `domTracker` 属性设置为 `true`。可监控页面的 DOM 信息。
 
