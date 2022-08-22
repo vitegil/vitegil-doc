@@ -2,7 +2,7 @@
 
 [Vitegil团队主页](https://github.com/vitegil)
 
-## 参与人员：
+## 团队成员
 
 > 框架搭建与集成部署、视觉风格设计、代码Review：
 [@Yuxuan Lin](https://github.com/itsyuxuan)
@@ -18,3 +18,9 @@
 
 > SDK核心开发、文档支撑：
 [@xiaobaigogo](https://github.com/xiaobaigogo)
+
+## 开源项目
+
+[Vitegil SDK](https://www.npmjs.com/package/vitegil-sdk)
+
+感谢团队成员一直以来的工作和支持！2022/07/22 ~ 2022/8/22
