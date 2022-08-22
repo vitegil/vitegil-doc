@@ -10,6 +10,6 @@
 
 ## 项目划分
 
-1. JSSDK：核心功能，最后打包上线npm
-2. Server： 服务端，提供数据上报、加工汇总等功能
-3. Admin：后台管理系统，管理展示SDK的监控数据
+1. Tracker SDK：核心功能，最后打包上线npm
+2. API Server： 服务端，提供数据上报、加工汇总等功能
+3. Admin System：后台管理系统，管理展示SDK的监控数据

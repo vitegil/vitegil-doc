@@ -3,12 +3,12 @@ module.exports = {
   description: 'Vitegil Docs',
   base: '/',
   head: [
-    // 设置favicon，在./vueprss/public下
-    ['link', { rel: 'icon', href: '/images/logo.png' }],
+    // 设置favicon，在./vuepress/public下
+    ['link', { rel: 'icon', href: '/images/favicon.png' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
-    repo: 'https://github.com/vitegil/vitegil-doc',
+    repo: 'https://github.com/vitegil/',
     theme: '@vuepress/theme-default',
     logo: '/images/logo.png',
     navbar: true,

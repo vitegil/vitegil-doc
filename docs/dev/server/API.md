@@ -23,13 +23,13 @@ generator: "@tarslib/widdershins v4.0.15"
 
 > v1.0.0
 
-# SDK接口
+# SDK 接口
 
-## POST sdk测试接口
+## POST SDK 测试接口
 
 POST /api/test
 
-编写sdk时可以将数据发送到该接口，响应内容为发送内容
+编写 SDK 时可以将数据发送到该接口，响应内容为发送内容
 
 > Body 请求参数
 
@@ -75,7 +75,7 @@ GET /api/test
 
 GET /api/operation
 
-获取网站的pv/uv，返回后台
+获取网站的 pv/uv，返回后台
 
 > 返回示例
 
@@ -89,7 +89,7 @@ GET /api/operation
 
 # 后端本地测试
 
-## POST 接收sdk发过来的Performance信息
+## POST 接收 SDK 发过来的 Performance 信息
 
 POST /api/performance/savePerformance
 
@@ -156,7 +156,7 @@ POST /api/performance/savePerformance
 
 ### 返回数据结构
 
-## POST 接受sdk发过来的Error信息
+## POST 接受 SDK 发过来的 Error 信息
 
 POST /api/error/saveError
 
@@ -203,7 +203,7 @@ POST /api/error/saveError
 
 ### 返回数据结构
 
-## POST 接收sdk发过来的Device信息
+## POST 接收 SDK 发过来的 Device 信息
 
 POST /api/device/saveDevice
 
@@ -256,7 +256,7 @@ POST /api/device/saveDevice
 
 ### 返回数据结构
 
-## POST 接受sdk发过来的PV信息
+## POST 接受 SDK 发过来的 PV 信息
 
 POST /api/pv/savePVs
 
