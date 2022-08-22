@@ -16,7 +16,7 @@ Vitegil (发音为 /ˈvɪdʒɪl/，类似 vigil) 是一款用于监控 Web 页�
 
 <img :src="$withBase('/images/framework.png')" alt="访问数据">
 
-### 特性?
+### 特性
 
 1. 无侵入性
 2. 埋点监测
